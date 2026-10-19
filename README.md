@@ -49,3 +49,9 @@ The scripts need only the Python standard library. Treat the extracted files as 
 Observations are labelled in `DESIGN.md` as observed, inferred or unknown. No code was decompiled
 (no Ghidra/IDA/Hopper was available); native facts come from `llvm-objdump` disassembly and resource
 parsing. Open questions are listed at the end of the reconstruction guide.
+
+## Note on the Markdown export
+
+`DESIGN.md` is a Markdown export of the working document. The two architecture/flow diagrams and the three
+reference images (title screen, texture atlas, a board background) exist only in the working document; the
+images are game art and are not redistributed here.
